@@ -1,0 +1,40 @@
+h3{
+    color: green;
+}
+#first-h3{
+    color: coral;
+}
+#second-h3{
+    color: blueviolet; font-style: italic;
+}
+.gang{
+    color: darkorange;
+}
+*{
+    font-size: 40px;
+}
+
+button:hover{
+    background-color: chartreuse;
+}
+p::before{
+    color: brown;
+    margin: 40px;
+    content:"👌";
+}
+p::first-line{
+    color: blue;
+}
+
+#border{
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 5px ;
+    border-top: 1px solid black;
+}
+
+div{
+    background-color: aqua;
+    height: 30vh;
+    width: 50vw;
+}
